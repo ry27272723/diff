@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Use relative base path so assets load correctly on GitHub Pages 
-  // regardless of the repository name (e.g. /my-repo/ or root domain)
-  base: './', 
+  // Set base path for GitHub Pages deployment
+  // Use repository name as base path
+  base: '/diff/',
 });
