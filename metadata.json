@@ -1,0 +1,5 @@
+{
+  "name": "Monochrome Difference Playground",
+  "description": "An interactive playground exploring the visual subtraction of white shapes on a black canvas. Type text or draw shapes to create falling elements that blend using difference logic.",
+  "requestFramePermissions": []
+}
